@@ -1,2 +1,2 @@
 #! /bin/bash
-tvservice -o
+tvservice -o >/dev/null

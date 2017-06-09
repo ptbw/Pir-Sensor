@@ -1,3 +1,3 @@
-xset s reset
-tvservice -p
-xset dpms force on
+xset s reset >/dev/null
+tvservice -p >/dev/null
+xset dpms force on >/dev/null
