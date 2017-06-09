@@ -62,3 +62,14 @@ Go to this line:
 
    Other things:
    If you don't want to put this in  your home directory then you can clone to the directory of your choice BUT remember to adjust your path in crontab... or it won't work!
+     
+   
+# Alternative script for using a APDS-9930  
+ 
+Install as above plus APDS-9930 library from https://github.com/Depaulicious/python-apds9930
+ 
+Connect APDS-9930 module to the I2C bus to use the script.
+ 
+Reference proximity.sh from your rc.local and ensure that the directory is updated to the location of the proximity python script.
+
+
